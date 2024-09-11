@@ -1,4 +1,57 @@
-![Capture d'écran 2023-03-08 111345](https://user-images.githubusercontent.com/5593293/223686025-03039501-6210-4032-98e9-cc2cca840a7f.png)
+A project that projects images on particles. These include:
+
+	•	Custom Geometry
+	•	Points (particles)
+	•	Grid of particles
+	•	Custom ShaderMaterial (GLSL)
+	•	Texture + UVs
+	•	Appear effect
+	•	Wave effect
+	•	Final result with mouse interaction
+
+![Alt text](https://raw.githubusercontent.com/flight505/threejs-images-on-particles/master/2024-09-11%2010.59.08.gif)
+
+This repository will help you start with images on particles in 3D environments using Three.js, a powerful WebGL library. It is powered by Vite ⚡️, which compiles everything quickly. The project also includes support for Sass, Babel, ESLint, Prettier, lil-gui, and GSAP for animations.
+
+It includes a LoaderManager.js file to easily load assets (images, textures, 3D models, etc.) in a single function.
+
+## How to install
+
+Clone the repository or download it in zip format, then
+
+### Open Terminial
+
+Navigate to projects folder
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the dev server
+
+```bash
+  npm run dev
+```
+
+### Build Project
+
+To build for production
+
+```bash
+  npm run build
+```
+
+## How to Use
+
+-   Use the 'src' folder for all project files.
+    -   HTML
+    -   JS
+    -   SCSS
+-   vite.config.js file sets up project input to 'src' folder.
+-   Use eslintrc file to configure linting rules
+-   Use prettierrc file to configure formatting rules
 
 
 # Vite template builder to quickly generate Threejs code in the browser.
